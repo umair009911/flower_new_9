@@ -18,7 +18,6 @@
             height: 100vh;
             width: 100vw;
             overflow: hidden;
-            /* No scroll */
             background: linear-gradient(135deg, #ffb6c1, #ffc0cb, #ffe4e1);
             display: flex;
             flex-direction: column-reverse;
@@ -27,7 +26,6 @@
             position: relative;
         }
 
-        /* Soft overlay */
         body::before {
             content: '';
             position: absolute;
@@ -85,7 +83,6 @@
             }
         }
 
-        /* Floating petals animation */
         .petal {
             position: absolute;
             top: -10vh;
@@ -150,7 +147,6 @@
     </div>
 
 
-    <!-- Generate petals -->
     <script>
         const petalCount = 10;
         for (let i = 0; i < petalCount; i++) {
